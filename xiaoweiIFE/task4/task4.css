@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.absolute {
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+}
+.top {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-bottom-right-radius: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bottom {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-top-left-radius: 50px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
